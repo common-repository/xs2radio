@@ -1,0 +1,35 @@
+.xs2radio-valid-token
+{
+	color: green;
+	font-weight: bold;
+}
+
+.xs2radio-invalid-token
+{
+	color: red;
+	font-weight: bold;
+}
+
+.xs2radio-delete-token, .xs2radio-delete-token:hover
+{
+	color: #b32d2e;
+	text-decoration: none;
+}
+
+.xs2radio-label
+{
+	display: inline-block;
+	min-width: 180px;
+	vertical-align: top;
+}
+
+#xs2radio_box textarea
+{
+	width: calc(100% - 180px);
+}
+
+@media only screen and (min-width: 783px) {
+	.settings_page_xs2radio .button-download {
+		margin-left: 200px
+	}
+}
